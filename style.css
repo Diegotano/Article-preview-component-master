@@ -1,0 +1,149 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rectangulo{
+    margin-top: 35vh;
+    width: 50vw;
+    height: 35vh;
+    background-color: white;
+    border-radius: 0.6rem;
+}
+
+#muebles{
+    height: 35vh;
+    width: 20vw;
+    border-radius: 0.6rem 0 0 0.6rem;
+}
+
+#titulo{
+    width: 23vw;
+    position: relative;
+    right: -22.5vw;
+    top: -34vh;
+}
+
+h1{
+    font-family: Manrope;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+#h1malo1{
+    position: relative;
+    top: -1.5vh;
+}
+
+#h1malo2{
+    position: relative;
+    top: -3vh;
+}
+
+#parrafo{
+    width: 25vw;
+    position: relative;
+    top: -37vh;
+    left: 22.6vw;
+}
+
+#description{
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: hsl(214, 17%, 51%)
+}
+
+#photo-michelle{
+    position: relative;
+    top: -35vh;
+    left: 22.6vw;
+}
+
+#michelle{
+    border-radius: 100%;
+    width: 2.5vw;
+    height: 5vh;
+}
+
+#description-michelle{
+    position: relative;
+    top: -42vh;
+    left: 26vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#nombre{
+    font-family: Manrope;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+    top: 5vh;
+    width: 8vw;
+}
+
+#nombre:hover{
+    filter: invert(1);
+}
+
+a{
+    text-decoration: none;
+}
+
+#anombre{
+    width: 8vw;
+}
+
+#noseamigopara{
+    font-family: Manrope;
+    font-weight: 500;
+    color: hsl(212, 23%, 69%);
+    font-size: 0.95rem;
+    position: relative;
+    top: -2.7vh;
+}
+
+#share-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(210, 46%, 95%);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    position: relative;
+    top: -50vh;
+    left: 44.5vw;
+    transition: all 0.25s ease;
+}
+
+#share-b:hover, #share-b:active{
+    background-color: hsl(217, 19%, 35%);
+}
+
+#share-b:focus ~ .share_in{
+    visibility: visible;
+}
+
+#shareinin{
+    color: white;
+}
+
+.share_in{
+    background-color: hsl(217, 19%, 35%);
+    width: 10vw;
+    height: 3.5vh;
+    border-radius: .7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+    position: relative;
+    transition: all 1.5s ease;
+    top: -58vh;
+    left: 40vw;
+}
